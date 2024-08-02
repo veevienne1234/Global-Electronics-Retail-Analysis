@@ -1,5 +1,12 @@
 # Global Electronics Retail Analysis
 
+## Table of contents
+
+- [Project Overview](#project-overview)
+- [Data Sources](#data-sources)
+- [Tools](#tools)
+- 
+
 ### Project Overview
 
 The Analysis will help the global electronics retailer gain insights into sales trends, customer behavior, product performance, and market dynamics, ultimately informing data-driven business decisions.
@@ -69,6 +76,8 @@ EDA involved exploring the retail data to answer questions such as:
 -	What is the yearly trend of revenue and orders.
 -	What are the top 5 selling products categories globally.
 -	Top 5  countries that generates the most sales.
+- Which customer segments (age, gender, location, etc.) have the highest purchase value, and how can we target them more effectively?
+
 
 ### Data Analysis
 
@@ -81,6 +90,23 @@ revenue = SUM(ProductSales[Sales Amount])
 
 ### Results/Findings
 
+
+The analysis results are summarized as follows:
+1. United states in subcategory washers and dryers made up 9.15% of sum of sales amount.
+2. Orders and total revenue are positively correlated with each other.
+3. Revenue and orders diverged the most when the year was 2019, when revenue were 2098692 higher than orders.
+
+### Recommendations 
+
+Based on the analysis, we recommend the following actions:
+- Look into the countries with least purchase power and improve adverts and campaigns
+- Bring in more products in high demand categories
+- Develop strategic partnership by collaborating with suppliers or competitors to improve efficiency and innovation.
+
+### limitations
+
+
+I had to add the age and age range column because we needed it for the analysis. we also added some columns( sales amount, cost, profit) to help the effectiveness of our analysis. we also added some dax functions coz they would have helped in the accuracy of my conclusions from the analysis.
 
 
 
