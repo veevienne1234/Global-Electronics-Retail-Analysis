@@ -5,7 +5,13 @@
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
 - [Tools](#tools)
-- 
+- [Data Preparation](#data-preparation)
+- [Data Dictionary](#data-dictionary)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Results](#results)
+- [Recommendations](#recommendations)
+- [Limitations](#limitations)
 
 ### Project Overview
 
@@ -21,7 +27,7 @@ https://www.kaggle.com/datasets/bhavikjikadara/global-electronics-retailers
 - Power Query - Data Analysis
 - Power BI - Creating reports
 
-### Data Cleaning/Preparation
+### Data preparation
 
 In the initial data preparation phase, we performed the following tasks
 1. Data loading and inspection
@@ -88,14 +94,13 @@ dax funtions
 revenue = SUM(ProductSales[Sales Amount])
 ```
 
-### Results/Findings
+### Results
 
 
 The analysis results are summarized as follows:
 1. United states in subcategory washers and dryers made up 9.15% of sum of sales amount.
 2. Orders and total revenue are positively correlated with each other.
-3. Revenue and orders diverged the most when the year was 2019, when revenue were 2098692 higher than orders.
-
+3. Revenue and orders diverged the most when the year was 2019, when revenue were 2098692 higher than orders. 
 ### Recommendations 
 
 Based on the analysis, we recommend the following actions:
