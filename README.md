@@ -1,4 +1,4 @@
-# Global Electronics Retail Analysis 
+# Global Electronics Retail Analysis
 
 ## Table of contents
 
